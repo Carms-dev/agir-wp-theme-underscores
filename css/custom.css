@@ -1,0 +1,47 @@
+/* Global */
+
+:root {
+  --black: #2E2E2E;
+  --darker: #474335;
+  --white: #fff;
+  --off-white: #FFFBF3;
+  --primary-light: #FDE8CE;
+  --primary-alt: #C44D1D;
+  --secondary: #4FA2A9;
+  --background: #F6F1E5;
+  --site-max: 1280px;
+}
+
+.wrapper {
+  max-width: var(--site-max);
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header */
+
+body {
+  background: var(--background);
+}
+
+.site-header {
+  background: var(--off-white);
+}
+
+.site-header .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-header img {
+  width: 100px;
+}
+
+.nav-menu {
+  justify-content: flex-end;
+}
+
+.menu-toggle {
+  float: right;
+}
