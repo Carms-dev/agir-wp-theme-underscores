@@ -1,0 +1,21 @@
+.hero {
+  display: grid;
+  grid-gap: 2rem;
+  text-align: center;
+}
+
+@media (min-width: 640px) {
+  .hero {
+    grid-template-columns: 2fr 3fr;
+    grid-auto-rows: 1fr;
+    align-items: center;
+    text-align: left;
+    direction: rtl;
+  }
+}
+
+@media (min-width: 1280px) {
+  .hero {
+    grid-gap: 6rem;
+  }
+}
