@@ -206,6 +206,16 @@ function my_acf_blocks_init()
       // 'enqueue_script'    => get_template_directory_uri() . '/template-parts/blocks/hero/hero.js',
     ));
 
+    // Register a testimonial block.
+    acf_register_block_type(array(
+      'name'              => 'testimonials', // slug
+      'title'             => __('Testimonials'),
+      'description'       => __('A custom testimonials block.'),
+      'render_template'   => 'template-parts/blocks/testimonials/testimonials.php',
+      'icon'              => 'format-quote',
+      'enqueue_style'     => get_template_directory_uri() . '/template-parts/blocks/testimonials/testimonials.css',
+      'enqueue_script'    => get_template_directory_uri() . '/template-parts/blocks/testimonials/testimonials.js',
+    ));
   }
 }
 add_action('acf/init', 'my_acf_blocks_init');

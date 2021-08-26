@@ -5,25 +5,33 @@
   --darker: #474335;
   --white: #fff;
   --off-white: #FFFBF3;
+  --blue-light: #C6E1E2;
+  --pinkish: #F8C7B4;
   --primary-light: #FDE8CE;
   --primary-alt: #C44D1D;
   --secondary: #4FA2A9;
   --background: #F6F1E5;
   --site-max: 1280px;
+  --br: 8px;
 }
 
 .wrapper {
   max-width: var(--site-max);
   margin: 0 auto;
-  padding: 0 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-/* Header */
+section {
+  padding-top: 2rem;
+  padding-bottom: 8rem;
+}
 
 body {
   background: var(--background);
 }
 
+/* Header */
 .site-header {
   background: var(--off-white);
 }
