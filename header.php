@@ -28,19 +28,19 @@
 	<header id="masthead" class="site-header">
 
 		<div class="wrapper">
-      <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php the_custom_logo(); ?></a>
+		  <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php the_custom_logo(); ?></a>
 
-      <nav id="site-navigation" class="main-navigation">
-        <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( '🍔', 'underscores' ); ?></button>
-        <?php
-        wp_nav_menu(
-          array(
-            'theme_location' => 'menu-1',
-            'menu_id'        => 'primary-menu',
-          )
-        );
-        ?>
-      </nav><!-- #site-navigation -->
+		  <nav id="site-navigation" class="main-navigation">
+				<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( '🍔', 'underscores' ); ?></button>
+					<?php
+						wp_nav_menu(
+							array(
+								'theme_location' => 'menu-1',
+								'menu_id'        => 'primary-menu',
+							)
+						);
+						?>
+		  </nav><!-- #site-navigation -->
 		</div><!-- .site-branding -->
 
 	</header><!-- #masthead -->

@@ -1,6 +1,6 @@
 <?php
 /**
- * underscores Theme Customizer
+ * Underscores Theme Customizer
  *
  * @package underscores
  */
