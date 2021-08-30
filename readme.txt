@@ -14,7 +14,7 @@ A starter theme called underscores.
 
 == Description ==
 
-Description
+AGIR Montreal Custom Theme
 
 == Installation ==
 
